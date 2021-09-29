@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allan Diogo Bastos - Desenvolvedor</title>
+
+    <!-- ícone no topo da página -->
+    <link rel='icon' href="imgs/icon-page.png" type="image/x-icon">
+
+    <!-- LINKAMENTO COM O STYLE.CSS -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- FONTE IMPORTADA DO GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Sistema para mudança de cores, util para um site "versão black"-->
+    <input type="checkbox" id="conexao" class="mudar">
+    <div id="home" class="muda-fundo">
+        <label id="muda_cor" for="conexao">
+            <span id="circulo_span"></span>
+        </label>
+    
+        <!-- CABEÇALHO DO SITE -->
+        <header>
+            <div id="header-objetos">       
+                <!-- IMG DIVISOR SUPERIOR -->
+                <figure>
+                    <img id="divisor-cima" src="imgs/divisor-pagina-normal.png" alt="Divisor de Página Superior">
+                    <figcaption class="hidden"> Divisor de Página Inferior </figcaption>
+                </figure>
+                
+                <!-- TITULO -->
+                <h1 id="titulo-header"></h1>
+                <!-- SUB-TITULO -->
+                <h2 id="sub-titulo-header"> PRAZER <span class="cor-span-palavras">ALLAN DIOGO</span>, 
+                SOU DESENVOLVEDOR FRONT-END & UI DESIGNER... POSSO SUPRIR A SUA NECESSIDADE!</h2>
+                
+                <!-- MENU OPÇÕES DROPDOWN-->
+                <ul id="menu-dropdown">
+                    <li class="opcoes-dropdown"><a href=""></a>  
+                        <ul>
+                            <li><a class="opcoes" href="#sobre">Sobre </a></li>
+                            <li><a class="opcoes" href="#skills">Skills </a></li>
+                            <li><a class="opcoes" href="#meus-projetos">Projetos </a></li>
+                            <li><a class="opcoes" href="#email">Contato </a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- IMG DIVISOR INFERIOR -->
+                <figure>
+                    <img id="divisor-baixo" src="imgs/divisor-pagina-invertido.png" alt="Divisor de Página Inferior">
+                    <figcaption class="hidden"> Divisor de Página Inferior </figcaption>
+                </figure>
+            </div>    
+        </header>
+
+
+
+        <!-- SOBRE MIM, ESCOLARIDADE E INFORMAÇÕES -->
+        <article>
+            <!-- QUEM É ALLAN? -->
+            <h1 id="sobre">MAS AFINAL, QUEM É ALLAN DIOGO<span class="cor-span-palavras">?</span></h1>
+            <div class="flex-article">
+                <figure>
+                    <img class="foto-sobre-eu" src="imgs/allan-sobre-mim.jpg" alt="Foto Allan Diogo">
+                    <figcaption class="hidden"> Foto Allan Diogo </figcaption>
+                </figure>
+                <h2>
+                    &nbsp;&nbsp;Meu nome é <span class="cor-span-palavras">ALLAN DIOGO</span>, 
+                    tenho 20 anos e moro em CAMPINAS - SP.<br><br>
+                    &nbsp;&nbsp;Estudei durante 4 anos e tenho 2 formações como desenvolvedor.<br><br>
+                    &nbsp;&nbsp;Na verdade ainda estudo, pois temos que sempre estar ligados nas atualizações e novas linguagens...
+                </h2>
+            </div>
+
+            <!-- FORMAÇÕES, ESCOLARIDADE... -->
+            <h1>EDUCAÇÃO <span class="cor-span-palavras">...</span></h1>
+            <!-- SÃO JOSÉ -->
+            <p>Escola Salesiana São José - Campinas - SP</p>
+            <div class="flex-article">   
+                <a href="http://www.essj.com.br" target="_blank">
+                    <figure>
+                        <img class="unidades-escolares" src="imgs/salesiana-sao-jose.png" alt="Foto Allan Diogo">
+                        <figcaption class="hidden"> Foto Allan Diogo </figcaption>
+                    </figure>
+                </a>
+                <h2>  
+                    &nbsp;&nbsp;Com 16 anos ingressei no curso técnico na escola Salesiana São José CPDB, 
+                    foi um ótimo curso e lá eu conheci esse lindo mundo da programação!<br>
+                    &nbsp;&nbsp;Aprendemos linguagem orientada a objetos, linguagem de marcação, 
+                    banco de dados, métodologias agéis, redes, pacote office e até mesmo informática basica!
+                </h2>
+            </div>
+            <!-- UNIVERSIDADE SÃO FRANCISCO -->
+            <p class="padding-top-30">Universidade São Francisco - Campinas - SP</p>
+            <div class="flex-article">
+                <a href="https://www.usf.edu.br" target="_blank">
+                    <figure>
+                    <img class="unidades-escolares" src="imgs/universidade-saofrancisco.png" alt="Foto Allan Diogo">
+                    <figcaption class="hidden"> Foto Allan Diogo </figcaption>
+                    </figure>
+                </a>
+                
+                <h2>
+                    &nbsp;&nbsp;Com 18 anos, após a formação de TI, ingressei direto para a graduação na
+                    Universidade São Francisco, lá mesmo além de reaprender coisas que eu já tinha visto,
+                    também tive a oportunidade de conhecer novas tecnologias e me aprimorar
+                    no que eu já tinha conhecimento! 
+                </h2>
+            </div>
+            <!-- PNG MOUSE PRETO ENFEITE -->
+            <figure>
+                <img id="mouse-icon" id="mouse-figure" src="imgs/mouse-gif.gif" alt="Ícone mouse">
+                <figcaption class="hidden"> Ícone mouse </figcaption>
+            </figure>
+        </article>
+
+
+        <!-- conteudo principal, SKILLS -->
+        <main id ="skills">
+            <div id="flex-main-titulo">
+                <h1 id="h1-main-titulo">Habilidades <span class="cor-span-palavras">|</span></h1>
+                <a href="outros/allan_cv.pdf" download="Curriculo_Dev_Allan.pdf"> Download CV 
+                <figure>
+                    <img id="cv-img" src="imgs/documento.gif" alt="Ícone mouse">
+                    <figcaption class="hidden"> Ícone mouse </figcaption>
+                </figure>
+                </a>
+            </div>
+            <div id="section-divs">
+                <section>
+                    <figure>
+                        <img class="imgs-section" src="imgs/criacao_site.gif" alt="Ícone mouse">
+                        <figcaption class="hidden"> Ícone mouse </figcaption>
+                    </figure>
+                    <h1 class="h1-main">Criação de Sites</h1>
+                    <h2 class="h2-main">Desenvolvimento de sites, blogs e lojas
+                         virtuais do 0 baseado no modelo do cliente!</h2>
+                </section>
+
+                <section>
+                    <figure>
+                        <img class="imgs-section" src="imgs/ui_design.gif" alt="Ícone mouse">
+                        <figcaption class="hidden"> Ícone mouse </figcaption>
+                    </figure>
+                    <h1 class="h1-main">UI Design</h1>
+                    <h2 class="h2-main">Montagem de layouts adequados para o
+                         seu negócio de forma profissonal!</h2>
+                </section>
+                    
+                <section>
+                    <figure>
+                        <img class="imgs-section" src="imgs/banco_dados.gif" alt="Ícone mouse">
+                        <figcaption class="hidden"> Img Banco de Dados </figcaption>
+                    </figure>
+                    <h1 class="h1-main">Banco de Dados</h1>
+                    <h2 class="h2-main">Modelagem de banco de dados para 
+                        armazenamento e organização de informações.</h2>
+                </section>
+
+                <section>
+                    <figure>
+                        <img class="imgs-section" src="imgs/semantica.gif" alt="Ícone mouse">
+                        <figcaption class="hidden"> Ícone mouse </figcaption>
+                    </figure>
+                    <h1 class="h1-main">Código Semântico</h1>
+                    <h2 class="h2-main">Códigos feitos estratégicamente para 
+                        monitoração e possiveis manutenções!</h2>
+                </section>
+            </div>
+
+            <div id="linguagens-div">
+                <ul class="linguagens-img">
+                    <li>
+                        <img onmouseover="html(this.value);" onmouseout="out(this.value);"  class="linguagens" src="imgs/html-img.png" />
+                        <figcaption class="hidden"> Programação Imagem </figcaption>
+                    </li>
+                    <li>
+                        <img onmouseover="css(this.value);" onmouseout="out(this.value);"  class="linguagens" src="imgs/css-img.png" />
+                        <figcaption class="hidden"> Programação Imagem </figcaption>
+                    </li>
+                    <li>
+                        <img onmouseover="js(this.value);" onmouseout="out(this.value);"  class="linguagens" src="imgs/javascript.png" />
+                        <figcaption class="hidden"> Programação Imagem </figcaption>
+                    </li>
+                    <li>
+                        <img onmouseover="php(this.value);" onmouseout="out(this.value);"  class="linguagens"src="imgs/php-img.png" />
+                        <figcaption class="hidden"> Programação Imagem </figcaption>
+                    </li>
+                </ul>
+                <ul class="linguagens-img">
+                    <li>
+                        <img onmouseover="node(this.value);" onmouseout="out(this.value);"  class="linguagens"src="imgs/node-img.png" />
+                        <figcaption class="hidden"> Programação Imagem </figcaption>
+                    </li>
+                    <li>
+                        <img onmouseover="phyton(this.value);" onmouseout="out(this.value);" class="linguagens" src="imgs/phyton-img.png" />
+                        <figcaption class="hidden"> Programação Imagem </figcaption>
+                    </li>
+                    <li>
+                        <img onmouseover="c(this.value);" onmouseout="out(this.value);" class="linguagens" src="imgs/c-img.png" />
+                        <figcaption class="hidden"> Programação Imagem </figcaption>
+                    </li>
+                    <li>
+                        <img onmouseover="bootstrap(this.value);" onmouseout="out(this.value);" class="linguagens" src="imgs/bootstrap-img.png" />
+                        <figcaption class="hidden"> Programação Imagem </figcaption>
+                    </li>
+                </ul>
+            </div>
+            <div id="descricao-linguagens">
+                <p id="font-linguagens">Clique em alguma das tecnologias... &#128522;</p>
+            </div>
+        </main>
+
+        <!-- Meus projetos no github -->
+        <div id="meus-projetos">   
+            <h1 id="projetos-titulo"> MEUS PROJETOS<span class="cor-span-palavras">| </span> &#9935;</h1>
+            <div class="projetos-div">
+                <section class="projetos-img">
+                    <figure>
+                        <img id="restaurante" src="imgs/restaurante-modelo.PNG" alt="Restaurante site">
+                        <figcaption class="hidden"> Restaurante site </figcaption>
+                    </figure>
+                </section>
+                <section class="projetos-img">
+                    <figure>
+                        <img id="botequim" src="imgs/botequim-modelo.PNG" alt="Botequim site">
+                        <figcaption class="hidden">Botequim site </figcaption>
+                    </figure>
+                </section>
+            </div>
+
+            <div class="projetos-div">
+                <section class="projetos-img">
+                    <figure>
+                        <img id="restaurante" src="imgs/em-breve.png" alt="Ícone mouse">
+                        <figcaption class="hidden"> Ícone mouse </figcaption>
+                    </figure>
+                </section>
+                <section class="projetos-img">
+                    <figure>
+                        <img id="restaurante" src="imgs/em-breve.png" alt="Ícone mouse">
+                        <figcaption class="hidden"> Ícone mouse </figcaption>
+                    </figure>
+                </section>
+            </div>
+        </div>
+
+        <!-- Formulário de Contato -->
+        <nav id="email">
+            <figure>
+                <img src="imgs/foto_email.png" alt="Foto Allan">
+                <figcaption class="hidden"> Foto Allan </figcaption>
+            </figure>
+            <section>
+                <form action="https://formsubmit.co/allan.diogo.bastos@gmail.com" method="POST">
+                    <h1 id="email">FORMULÁRIO DE CONTATO  :</h1>
+                    
+                    <label>
+                        <br><span>Nome ;</span><br>
+                        <input type="text" required minlength="4" placeholder="Nome" name="name"/>
+                        <img id="icone1-form" src="imgs/user-icon.png" />
+                        <figcaption class="hidden"> Usuario Icone </figcaption>
+                    </label>
+            
+                    <label>
+                        <br><span>E-mail ;</span><br>
+                        <input type="email" required minlength="8" placeholder="E-mail_silva@gmail.com" name="email"/>
+                        <img id="icone2-form" src="imgs/email-preto.png" />
+                        <figcaption class="hidden"> Email Icone </figcaption>
+                        </label>
+            
+                    <label>
+                        <br><span>Assunto ;</span><br>
+                        <input type="text" required minlength="4" placeholder="Orçamento" name="subject"/>
+                        <img id="icone3-form" src="imgs/assunto-icon.png" />
+                        <figcaption class="hidden"> Assunto icone </figcaption>
+                    </label>
+            
+                    <label>
+                        <br><span>Mensagem ;</span><br>
+                        <textarea name="message" required maxlength="300"></textarea>
+                        <button type="submit">Enviar!</button>
+                    </label>
+
+                    <input type="hidden" name="_captcha" value="false"/>
+                    <input type="hidden" name="_next" value="https://allan-diogo-desenvolvedor.netlify.app/#email_enviado.html"/>
+                </form>
+            </section>
+        </nav>
+
+        <!--Rodapé-->
+        <footer>
+            <div class="container">
+                <nav id="footer-dados">
+                    <ul class="info-contato">
+                        <li class="white">
+                            <a class="white" href="mailto:albr6ra@outlook.com"><strong>E-mail:</strong> albr6ra@outlook.com |  allan.bastos@mail.usf.edu.br</a>
+                        </li>
+                
+                        <li class="white">
+                            <a class="white" href="tel:19983096217"><strong>Telefone:</strong> (19) 983904078 | (19) 982096217</a>
+                        </li>
+                
+                        <li class="white">
+                            <a class="white" href="13082617"><strong>Endereço:</strong> Rua Antônio Teodoro de Castos,140, Vila Esperança - Campinas-SP</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <section id="footer-sociais">   
+                    <a class="controle-espaco" target="_blank" href="https://br.linkedin.com">
+                        <img class="imgs-redes" src="imgs/linkedin_png.png" alt="Linkedin">
+                        <p class="p-footer"> Linkedin </p>
+                    </a>
+
+                    <a class="controle-espaco" target="_blank" href="https://www.facebook.com/allan.diogo.77377">
+                        <img class="imgs-redes" src="imgs/facebook_png.png" alt="Linkedin">
+                        <p class="p-footer"> Facebook </p>
+                    </a>
+
+                    <a class="controle-espaco" target="_blank" href="https://www.instagram.com/allan.diogo.dev/">
+                        <img class="imgs-redes" src="imgs/instagram_png.png" alt="Linkedin">
+                        <p class="p-footer"> Instagram </p>
+                    </a>
+
+                    <a class="controle-espaco" target="_blank" href="https://github.com/AllanDiogoDev">
+                        <img class="imgs-redes" src="imgs/github_png.png" alt="Linkedin">
+                        <p class="p-footer"> &nbsp GitHub </p>
+                    </a>
+                </section>
+
+                <div id="creditos">
+                    <h1 class="controle-h1-footer"> Criado por <span class="cor-span-palavras">ALLAN DIOGO! ☕</span> </h1>
+                    <h2 class="controle-h2-footer"> Campinas - SP</h2>
+                    <h2 class="controle-h2-footer"> 2021</h2>
+                </div>
+            </div>
+        </footer>	
+        <div>
+            <a id="posicao-volta" class="back-to-top" href="#home">▲</a>
+        </div>
+    </div>
+</body>
+    <script type="text/javascript" src="js/js.js"></script>
+</html>
