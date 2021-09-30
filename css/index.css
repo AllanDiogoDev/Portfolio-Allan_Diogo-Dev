@@ -309,6 +309,13 @@ article p {
     margin-top: 40px;
 }
 
+#figure-article{
+    background-image: url(../imgs/background-figure.gif);
+    background-repeat: repeat;
+    background-size:cover;
+    width: 168px;
+}
+
 .flex-article{
     display: flex;
 }
@@ -1056,7 +1063,7 @@ footer{
     /*footer, rodapé do site*/
     footer{
         width: 100%;
-        height: 400px;
+        height: 510px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1068,13 +1075,15 @@ footer{
 
     .container{
         width: 100%;
-        height: 400px;
+        height: 450px;
         background-color: white;
     }
 
 
     #footer-dados{
         width: 370px;
+        margin-top: 0px;
+        height: 130px;
     }
 
     .white{
@@ -1115,7 +1124,7 @@ footer{
 
     #creditos{
         width: 100%;
-        height: 140px;
+        height: 145px;
         background-color: #090e29;
         text-align: center;
         margin-top: 10px;
@@ -1200,5 +1209,12 @@ footer{
         padding-left: 1px;
         padding-top: 10px;    
 
+    }
+
+    #figure-article{
+        background-image: url(../imgs/background-figure1.gif);
+        background-repeat: repeat;
+        background-size: cover;
+        width: 100%;
     }
 }
