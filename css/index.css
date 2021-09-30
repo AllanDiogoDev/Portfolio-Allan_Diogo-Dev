@@ -1206,7 +1206,7 @@ footer{
         content: '▲';
         display: flex;
         justify-content: center;
-        padding-left: 1px;
+        padding-right: 1px;
         padding-top: 10px;    
 
     }
