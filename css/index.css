@@ -470,6 +470,36 @@ main section:hover{
     background-size:cover;
 }
 
+.botequim-img{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    background-color: #090e29;
+    margin-left: 10px;
+    background: url(../imgs/loja-virtual.png);  
+    background-size:cover;
+}
+
+.pdf-img{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    background-color: #090e29;
+    margin-left: 10px;
+    background: url(../imgs/livros-digitais.png);  
+    background-size:cover;
+}
+
+.restaurante-img{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    background-color: #090e29;
+    margin-left: 10px;
+    background: url(../imgs/restaurante-idiomas.png);  
+    background-size:cover;
+}
+
 #projetos-titulo{
     font-family: 'Roboto30', sans-serif;
     color: black;
