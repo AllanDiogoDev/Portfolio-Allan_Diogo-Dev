@@ -41,6 +41,7 @@ html{
     /*COR PARA SOMBRA DE TEXTOS E IMAGENS*/
     --black_shadow:#0007;
     --black_div_transparent: rgba(0, 0, 0, 0.808);
+
 }
 
 
@@ -89,6 +90,7 @@ html{
     --cor_inverte:#068f19;
     --box-color:rgba(9, 133, 25, 0.24);
     transition: 0.3s;
+    --imagem-foto: url(../imgs/back-figure-2.gif);
 }
 
 .cor-span-palavras{
@@ -279,10 +281,15 @@ article h2{
     width: 140px;
     margin-right: 20px;
     border-radius: 100px;
+    border: 4px solid var(--cor_inverte);
 }
 
 .foto-sobre-eu:hover{
-    box-shadow: 0 0 5px var(--cor_inverte);
+    border: 3px solid var(--cor_inverte);
+    border-radius: 50%;
+    transition: 0.3s;
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
 }
 
 .unidades-escolares{
@@ -310,7 +317,6 @@ article p {
 }
 
 #figure-article{
-    background-image: url(../imgs/background-figure.gif);
     background-repeat: repeat;
     background-size:cover;
     width: 168px;
@@ -514,16 +520,25 @@ main section:hover{
     height: 400px;
 }
 
+#pdf{
+    width: 300px;
+    height: 400px;
+}
+
 #botequim:hover{
     cursor: pointer;
-    opacity: 0;
-    transition: 1s;
-    filter: blur(10px);
 }
 
 #restaurante:hover{
     cursor: pointer;
     transition: 1s;
+    opacity: 0;
+}
+
+#pdf:hover{
+    cursor: pointer;
+    transition: 1s;
+    opacity: 0;
 }
 
 nav{
@@ -1016,13 +1031,24 @@ footer{
         cursor: pointer;
         opacity: 1;
         transition: 0.5s;
-        filter: blur(2px);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
     
     #restaurante:hover{
         cursor: pointer;
-        opacity: 1;
-        transition: 0.5s;
+        overflow: hidden;
+        transition: 1.5s;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #pdf:hover{
+        cursor: pointer;
+        overflow: hidden;
+        transition: 1.5s;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
     }
 
     nav{
